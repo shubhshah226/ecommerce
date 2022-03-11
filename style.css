@@ -1,0 +1,862 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('../fonts/PTSansRegular.eot');
+    src: url('../fonts/PTSansRegular.eot') format('embedded-opentype'),
+        url('../fonts/PTSansRegular.woff2') format('woff2'),
+        url('../fonts/PTSansRegular.woff') format('woff'),
+        url('../fonts/PTSansRegular.ttf') format('truetype'),
+        url('../fonts/PTSansRegular.svg#PTSansRegular') format('svg');
+}
+
+body {
+    font-family: 'PTSansRegular';
+
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    display: table;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 20px;
+}
+
+.logobox {
+    float: left;
+    padding-left: 100px;
+
+}
+
+.logobox a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding-top: 10px;
+}
+
+.logobox i {
+    display: none;
+
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    padding-right: 5px;
+
+}
+
+
+.navcont {
+    width: 100%;
+    padding-right: 140px;
+}
+
+nav {
+    padding: 8px;
+    display: inline-block;
+}
+
+nav ul li select {
+    font-size: 18px;
+    background-color: #EFEFEF;
+    border: none;
+}
+
+nav ul li select:hover {
+    border: none;
+}
+
+
+.container .right-con ul {
+    list-style: none;
+    position: absolute;
+    right: 20px;
+
+}
+
+.container .right-con ul li {
+    float: left;
+    padding: 10px 25px;
+}
+
+.slidercont {
+    padding: 80px;
+}
+
+.container .item .imgcont {
+    margin: 0 auto;
+    padding: 40px 20px 0;
+
+}
+
+/* .item .imgcont img {
+    height: 450px;
+} */
+
+.container .item .imgcont h1 {
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    display: inline-block;
+    left: 50%;
+    margin: 0 auto;
+    font-size: 80px;
+    text-align: center;
+    color: white
+}
+
+.bannercont {
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.container .item .imgcont h2 {
+    position: absolute;
+    position: fixed;
+    top: 40%;
+    transform: translate(-45%, 50%);
+    left: 50%;
+    margin: 0 auto;
+    font-size: 80px;
+    text-align: center;
+    color: white
+}
+
+.imgslider.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    height: 50px;
+    width: 60px;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+    padding: 40px;
+
+
+}
+
+.imgslider.owl-carousel .owl-nav button.disabled {
+    cursor: not-allowed;
+}
+
+
+
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+
+}
+
+.postersec {
+    z-index: 2;
+    position: fixed;
+    top: 150px;
+    left: 150px;
+    display: none;
+}
+
+.postersec .container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: aquamarine;
+    height: 400px;
+    position: relative;
+
+
+}
+
+.postercont h1 {
+    text-align: right;
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+.postercont h2 {
+    text-align: right;
+    margin-right: 45px;
+    font-size: 35px;
+}
+
+.postercont .extracont {
+    font-size: 14px;
+    padding-left: 200px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.postercont a {
+    position: absolute;
+    right: -20px;
+    top: -14px;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding-top: 5px;
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.newheadcont {
+    padding: 30px;
+    text-align: center;
+}
+
+.newheadcont h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.newheadcont p {
+    padding-bottom: 10px;
+}
+
+.newheadcont .fas {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.newitemsec .container {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.newitemsec .container .row {
+    width: 100%;
+    display: table;
+}
+
+.newitemsec .container .row .col4 .cont {
+    padding: 0 20px;
+}
+
+.newitemsec .container .row .col4 {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/hoddedjacket.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.newitemsec .container .row .col4.sec {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+
+}
+
+.newitemsec .container .row .col4.thi {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.newitemsec .container .row .col4.fou {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img4.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.newitemsec .container .row .col4.first {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.newitemsec .container .row .col4.second {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img6.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.newitemsec .container .row .col4.third {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img7.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.newitemsec .container .row .col4.four {
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-image: url(../images/img8.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+
+
+.newitemsec .container .row .col4 .allicon {
+    position: relative;
+    top: 50%;
+}
+
+.newitemsec .container .row .col4 .allicon .fa.first {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: grey;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.newitemsec .container .row .col4 .allicon .fa.second {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: grey;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.newitemsec .container .row .col4 .allicon .fa.third {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: grey;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.newitemsec .container .row .col4 .staricon {
+    position: relative;
+    top: 70%;
+    left: 5%
+}
+
+.newitemsec .container .row .col4 .staricon .fa {
+    position: relative;
+    top: 80%;
+    left: 30%;
+    font-size: 14px;
+}
+
+.newitemsec .container .row .col4 .allicon .fa:hover {
+    background-color: black;
+}
+
+.pricecont {
+    position: absolute;
+    top: 110%;
+    left: 25%;
+}
+
+.pricecont h3 {
+    font-size: 16px;
+}
+
+.pricecont p {
+    font-size: 14px;
+    padding: 10px 25px;
+    color: grey;
+}
+
+.springsec {
+    margin: 50px;
+}
+
+.springsec .springcont .container {
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.springsec .springcont .container .row {
+    width: 100%;
+    display: table;
+}
+
+.springsec .springcont .row .col2 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.springsec .springcont .row .col2 .myco {
+    background-image: url(../images/SpringGirls1.webp);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.springsec .springcont .row .col2 .springcon {
+    position: absolute;
+    top: 50%;
+    left: -20%;
+}
+
+.springsec .springcont .row .col2 .springcon h2 {
+    font-size: 80px;
+    max-width: 30%;
+
+}
+
+.springsec .springcont .row .col2 .springcon i {
+    font-size: 20px;
+    color: red;
+}
+
+.springsec .springcont .row .col2 .iframecont {
+    padding: 40px 30px;
+}
+
+.springsec .springcont .row .col2 .iframecont iframe {
+    width: 450px;
+    height: 300px;
+}
+
+.springsec .springcont .row .col2 .iframecont h3 {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.springsec .springcont .row .col2 .iframecont p {
+    color: grey;
+    padding-top: 10px;
+
+}
+
+.musicboyssec .musicboycont .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.musicboyssec .musicboycont .container .row {
+    display: table;
+    width: 100%;
+}
+
+.musicboyssec .musicboycont .container .row .col2 {
+    float: left;
+    width: 60%;
+
+}
+
+.musicboyssec .musicboycont .container .row .col2.second {
+    background-image: url(../images/men.webp);
+    height: 550px;
+    background-size: cover;
+    width: 40%;
+    position: relative;
+}
+
+
+.musicboyssec .musicboycont .container .row .col2 .musiccon h2 {
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    max-width: 40%;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.musicboyssec .musicboycont .container .row .col2 .iframecont iframe {
+    width: 400px;
+    height: 300px;
+}
+
+.musicboyssec .musicboycont .container .row .col2 .iframecont h3 {
+    padding: 10px 0;
+}
+
+.musicboyssec .musicboycont .container .row .col2 .iframecont p {
+
+    color: grey;
+}
+
+.musicboyssec .musicboycont .container .row .col2 .musiccon h4 {
+    position: absolute;
+    left: -10%;
+    top: 80%;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.musicboyssec .musicboycont .container .row .col2 .musiccon i {
+    position: absolute;
+    left: -10%;
+    top: 85%;
+    color: red;
+    padding-top: 10px;
+
+}
+
+.musicboyssec .musicboycont .container .row .col2 .iframecont {
+    padding: 80px 30px;
+}
+
+
+.lowerbanner .containersecond {
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.lowerbanner .containersecond .lowerbannercont {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(../images/lastbanner.webp);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.lowerbanner .containersecond .lowerbannercont .backcont {
+    position: absolute;
+    bottom: -30%;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.lowerbanner .containersecond .lowerbannercont .backcont h2 {
+    font-size: 90px;
+}
+
+.lowerbanner .containersecond .lowerbannercont .backcont h3 {
+    font-size: 90px;
+
+}
+
+.lowerbanner .containersecond .lowerbannercont .backcont h4 {
+    font-size: 20px;
+
+}
+
+i {
+    color: red;
+}
+
+.shippingsec .container {
+    padding: 50px;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.shippingsec .container .row {
+    display: table;
+    width: 100%;
+}
+
+.shippingsec .container .row .col {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+.shippingsec .container .row .col .shipcont {
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.shippingsec .container .row .col .shipcont h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.shippingsec .container .row .col .shipcont a {
+    text-decoration: none;
+    color: #1ba3d9;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.shippingsec .container .row .col .shipcont i {
+    color: #1ba3d9;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+.newslettersec .newslettercont .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newslettersec .newslettercont .container .row {
+    display: table;
+    width: 100%;
+}
+
+.newslettersec .newslettercont .container .row .col2 {
+    width: 60%;
+    float: left;
+    position: relative;
+
+}
+
+.newslettersec .newslettercont .container .row .col2.sec {
+    width: 40%;
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .leftcont {
+    background-color: #a29696;
+    height: 400px;
+    width: 100%;
+}
+
+
+.newslettersec .newslettercont .container .row .col2 .leftcont .headcont h1 {
+    position: absolute;
+    top: 20%;
+    font-size: 60px;
+    left: 5%;
+}
+
+.newslettersec .newslettercont .container .row .col2 .leftcont .headcont input {
+    top: 45%;
+    width: 80%;
+    position: absolute;
+    left: 5%;
+    height: 70px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.newslettersec .newslettercont {
+    padding: 0px 0;
+}
+
+.newslettersec .newslettercont .container .row .col2 .leftcont .headcont button {
+    top: 45%;
+    width: 20%;
+    position: absolute;
+    left: 73%;
+    height: 70px;
+    background-color: #cf2226;
+    color: white;
+    padding: 0px 40px;
+}
+
+.newslettersec .newslettercont .container .row .col2 .leftcont .headcont p {
+    top: 70%;
+    left: 5%;
+    max-width: 85%;
+    position: absolute;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container {
+    height: 300px;
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row {
+    width: 100%;
+    display: table;
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9 {
+    width: 30.33%;
+    float: left;
+    height: 130px;
+    margin: 2px;
+    background-size: cover;
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.one {
+    background-image: url(../images/img9.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.second {
+    background-image: url(../images/img10.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.third {
+    background-image: url(../images/img11.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.four {
+    background-image: url(../images/img12.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.five {
+    background-image: url(../images/img13.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.six {
+    background-image: url(../images/img14.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.seven {
+    background-image: url(../images/img15.jfif);
+
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.eight {
+    background-image: url(../images/img16.jfif);
+}
+
+.newslettersec .newslettercont .container .row .col2 .container .row .col9.nine {
+    background-image: url(../images/img20.jfif);
+
+}
+
+.footetersec .container .footercont .footerlogo {
+    padding-left: 80px;
+    padding-top: 50px;
+    float: left;
+}
+
+.footetersec .container .footercont .footerlogo h1 {
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.footetersec .container .footercont .footerlogo nav {
+    padding: 22px;
+}
+
+.footetersec .container .footercont .footerlogo nav ul li {
+    color: grey;
+    font-size: 14px;
+}
+
+.footetersec .container .footercont .rightcon {
+    float: right;
+    margin: 0 auto;
+
+    padding-top: 60px;
+    color: grey;
+    font-size: 14px;
+}
+
+i {
+    color: black;
+}
+
+.rightcon .hover {
+    display: none;
+}

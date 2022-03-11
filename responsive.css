@@ -1,0 +1,333 @@
+@media only screen and (max-width: 767px) {
+    header {
+        position: relative;
+    }
+
+    header nav ul li {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+
+    }
+
+    header nav {
+        display: none;
+        background-color: #efefef;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 2;
+
+    }
+
+    header nav ul li {
+        float: none;
+        padding: 20px;
+        text-align: center;
+
+
+    }
+
+    .navcont {
+        width: 100%;
+    }
+
+    header nav ul {}
+
+    .logobox a {
+        padding-left: 40px;
+    }
+
+    .logobox .fa {
+        display: block;
+        position: absolute;
+        left: 33px;
+        top: 30px;
+    }
+
+    .right-con ul li span .fa-shopping-cart {
+        position: absolute;
+        right: 0;
+    }
+
+    .right-con ul li span .fa-search {
+        position: absolute;
+        right: 53px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -35px;
+        top: 106px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        right: -36px;
+        top: 106px;
+    }
+
+    .imgslider.owl-carousel .owl-nav button {
+        height: 35px;
+        width: 46px;
+        font-size: 25px;
+    }
+
+    .container .item .imgcont h2 {
+        top: 50%;
+        left: 49%;
+        font-size: 30px;
+    }
+
+    .container .item .imgcont h1 {
+        top: 45%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    .springsec .springcont .row .col2.first {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .springsec .springcont .row .col2 .springcon {
+        position: absolute;
+        top: 76%;
+        left: 28%;
+    }
+
+    .springsec .springcont .container {
+        height: 1200px;
+        width: 100%;
+    }
+
+    .springsec {
+        margin: 50px 0;
+    }
+
+    .springsec .springcont .row .col2 .iframecont iframe {
+        margin-top: 120px;
+        width: 350px;
+        height: 230px;
+        margin-left: 28px;
+    }
+
+    .springsec .springcont .row .col2 .springcon i {
+        margin-left: 60px;
+    }
+
+    .springsec .springcont .row .col2 .iframecont {
+        padding: 0px 0px;
+        margin: 0px 0;
+    }
+
+    .springsec .springcont .row .col2 {
+        width: 100%;
+
+    }
+
+    .txtsec {
+        text-align: center;
+    }
+
+    .newitemsec .container {
+        height: 2100px;
+    }
+
+    .newitemsec .container .row .col4.fir {
+        width: 100%;
+        margin: 50px 0;
+        height: 410px;
+    }
+
+    .newitemsec .container .row .col4.sec {
+        width: 100%;
+        margin: 50px 0;
+        height: 410px;
+    }
+
+    .newitemsec .container .row .col4.thi {
+        width: 100%;
+        margin: 50px 0;
+        height: 410px;
+    }
+
+    .newitemsec .container .row .col4.fou {
+        width: 100%;
+        margin: 50px 0;
+        height: 410px;
+    }
+
+    .pricecont {
+        position: absolute;
+        top: 110%;
+        left: 32%;
+    }
+
+    .musicboyssec .musicboycont .container {
+        height: 1000px;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2 .iframecont iframe {
+        width: 350px;
+        height: 230px;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2 .iframecont {
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2.second {
+        width: 100%;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2 .musiccon h2 {
+        left: 20%;
+        top: 75%;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2 .musiccon h4 {
+        left: 14%;
+        top: 108%;
+    }
+
+    .musicboyssec .musicboycont .container .row .col2 .musiccon i {
+        left: 42%;
+        top: 115%;
+    }
+
+    .newitemsec .container {
+        height: 2150px;
+    }
+
+    .newitemsec .container .row .col4.first {
+        width: 100%;
+        margin-bottom: 100px;
+        height: 410px;
+    }
+
+    .newitemsec .container .row .col4.second {
+        width: 100%;
+        margin-bottom: 100px;
+        height: 410px;
+    }
+
+    .newitemsec .container .row .col4.third {
+        width: 100%;
+        margin-bottom: 100px;
+        height: 410px;
+    }
+
+    .newitemsec .container .row .col4.four {
+        width: 100%;
+        margin-bottom: 100px;
+        height: 410px;
+    }
+
+    .lowerbanner {
+        margin-top: 0px;
+    }
+
+    .lowerbanner .containersecond .lowerbannercont .backcont h2 {
+        font-size: 60px;
+    }
+
+    .lowerbanner .containersecond .lowerbannercont .backcont h3 {
+        font-size: 60px;
+    }
+
+    .lowerbanner .containersecond .lowerbannercont .backcont {
+        bottom: -27%;
+    }
+
+    .shippingsec .container {
+        height: 400px;
+    }
+
+    .shippingsec .container .row .col {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .newslettersec .newslettercont .container .row .col2 {
+        width: 100%;
+    }
+
+    .newslettersec .newslettercont .container .row .col2.sec {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .newslettersec .newslettercont .container .row .col2 .leftcont .headcont button {
+        width: 27%;
+        left: 71%;
+        padding: 0 0;
+    }
+
+    .newslettersec .newslettercont .container .row .col2 .leftcont .headcont p {
+        max-width: 100%;
+    }
+
+    .newslettersec .newslettercont .container .row .col2 .container {
+        width: 100%;
+        margin: 0 auto;
+        height: 450px;
+    }
+
+    .row .col2 .container .row .col9 {
+        width: 32.33%;
+        margin: 2px;
+
+    }
+
+    .footetersec .container {
+        width: 90%;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .footercont .footerlogo nav ul li {
+        float: none;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footetersec .container .footercont .footerlogo {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+
+
+    }
+
+    .footetersec .container .footercont .footerlogo h1 {
+        float: none;
+    }
+
+    .footetersec .container .footercont .rightcon {
+        padding-right: 0px;
+        padding-top: 8px;
+
+    }
+
+    .footetersec .container .footercont .rightcon nav ul li {
+        float: none;
+        padding: 10px 0;
+    }
+
+    .footetersec .container .footercont .footerlogo nav {
+        padding: 30px 0;
+    }
+
+    .footetersec .container .footercont .rightcon nav {
+        padding: 0 0;
+    }
+
+}
