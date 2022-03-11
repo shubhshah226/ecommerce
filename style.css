@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'PTSansRegular';
-    src: url('../fonts/PTSansRegular.eot');
-    src: url('../fonts/PTSansRegular.eot') format('embedded-opentype'),
-        url('../fonts/PTSansRegular.woff2') format('woff2'),
-        url('../fonts/PTSansRegular.woff') format('woff'),
-        url('../fonts/PTSansRegular.ttf') format('truetype'),
-        url('../fonts/PTSansRegular.svg#PTSansRegular') format('svg');
+    src: url('PTSansRegular.eot');
+    src: url('PTSansRegular.eot') format('embedded-opentype'),
+        url('PTSansRegular.woff2') format('woff2'),
+        url('PTSansRegular.woff') format('woff'),
+        url('PTSansRegular.ttf') format('truetype'),
+        url(PTSansRegular.svg#PTSansRegular') format('svg');
 }
 
 body {
@@ -272,7 +272,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/hoddedjacket.jfif);
+    background-image: url(images/hoddedjacket.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -286,7 +286,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img1.jfif);
+    background-image: url(img1.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -301,7 +301,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img5.jfif);
+    background-image: url(img5.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -315,7 +315,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img4.jfif);
+    background-image: url(img4.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -329,7 +329,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img5.jfif);
+    background-image: url(img5.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -343,7 +343,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img6.jfif);
+    background-image: url(img6.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -357,7 +357,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img7.jfif);
+    background-image: url(img7.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -371,7 +371,7 @@ nav ul li select:hover {
     width: 25%;
     height: 300px;
     border: 2px solid whitesmoke;
-    background-image: url(../images/img8.jfif);
+    background-image: url(img8.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -483,7 +483,7 @@ nav ul li select:hover {
 }
 
 .springsec .springcont .row .col2 .myco {
-    background-image: url(../images/SpringGirls1.webp);
+    background-image: url(SpringGirls1.webp);
     background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
@@ -544,7 +544,7 @@ nav ul li select:hover {
 }
 
 .musicboyssec .musicboycont .container .row .col2.second {
-    background-image: url(../images/men.webp);
+    background-image: url(men.webp);
     height: 550px;
     background-size: cover;
     width: 40%;
@@ -606,7 +606,7 @@ nav ul li select:hover {
 }
 
 .lowerbanner .containersecond .lowerbannercont {
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(../images/lastbanner.webp);
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(lastbanner.webp);
     height: 500px;
     width: 100%;
     background-size: cover;
@@ -780,46 +780,46 @@ i {
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.one {
-    background-image: url(../images/img9.jfif);
+    background-image: url(img9.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.second {
-    background-image: url(../images/img10.jfif);
+    background-image: url(img10.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.third {
-    background-image: url(../images/img11.jfif);
+    background-image: url(img11.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.four {
-    background-image: url(../images/img12.jfif);
+    background-image: url(img12.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.five {
-    background-image: url(../images/img13.jfif);
+    background-image: url(img13.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.six {
-    background-image: url(../images/img14.jfif);
+    background-image: url(img14.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.seven {
-    background-image: url(../images/img15.jfif);
+    background-image: url(img15.jfif);
 
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.eight {
-    background-image: url(../images/img16.jfif);
+    background-image: url(img16.jfif);
 }
 
 .newslettersec .newslettercont .container .row .col2 .container .row .col9.nine {
-    background-image: url(../images/img20.jfif);
+    background-image: url(img20.jfif);
 
 }
 
